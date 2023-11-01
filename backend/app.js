@@ -16,9 +16,6 @@ app.use(json())
 // Enable CORS for all routes
 app.use(cors());
 
-app.use('/', (req, res) => {
-    res.send('Hello World');
-});
 
 app.use('/api/todos', todos);
 
