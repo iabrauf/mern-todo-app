@@ -8,6 +8,7 @@ A simple Todo application built with the MERN stack (MongoDB, Express.js, React,
 - [Getting Started](#getting-started)
 - [Running the Backend](#running-the-backend)
 - [Running the Frontend](#running-the-frontend)
+- [Environment Variablesd](#Environment-Variables)
 - [Application Features](#application-features)
 
 ## Prerequisites
@@ -72,6 +73,32 @@ cd frontend
 npm run dev
 ```
 
+## Environment Variables
+
+To run this project, you need to configure the following environment variables:
+
+### Backend Environment Variables
+
+- **ATLAS_URI**: MongoDB connection URI for your backend.
+- **PORT**: Port number for the backend server.
+
+### Frontend Environment Variables
+
+- **NEXT_PUBLIC_API_URL**: The URL of the backend API for your frontend.
+
+You can set these environment variables in your `.env.local` file for the frontend and in your backend environment.
+
+#### Backend Environment Variables (.env)
+
+```plaintext
+ATLAS_URI = mongodb_connection_string
+PORT = 5000
+
+Frontend Environment Variables (.env.local)
+plaintext
+NEXT_PUBLIC_API_URL = "http://localhost:5000" or production url
+
+
 ## Application Features
 
 features of application
@@ -111,3 +138,4 @@ features of application
 
 - The application communicates with a backend server to store and retrieve todo data.
 - This ensures data persistence and synchronization across devices.
+```
