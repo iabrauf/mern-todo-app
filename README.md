@@ -8,6 +8,7 @@ A simple Todo application built with the MERN stack (MongoDB, Express.js, React,
 - [Getting Started](#getting-started)
 - [Running the Backend](#running-the-backend)
 - [Running the Frontend](#running-the-frontend)
+- [Application Features](#application-features)
 
 ## Prerequisites
 
@@ -70,3 +71,43 @@ To run the frontend, navigate to the frontend directory and execute the followin
 cd frontend
 npm run dev
 ```
+
+## Application Features
+
+features of application
+
+## Feature 1: Create and Manage Todos
+
+- Users can add, edit, and delete todo items.
+- Each todo can have a name and a completion status.
+- Each todo have the date of creation at which he is created also.
+- Todos are organized for better task management.
+
+## Feature 2: Mark Todos as Completed
+
+- Users can mark todos as completed or uncompleted with a simple click.
+- Completed todos are visually distinct to track progress easily.
+
+## Feature 3: Sort and Filter Todos
+
+- Users can sort todos by various criteria, such as creation date or completion status.
+- Filtering options help users focus on specific tasks. Only those todos will be displayed which are created on same day
+
+## Feature 4: User-Friendly Interface
+
+- The app offers an intuitive and responsive user interface.
+- Clean design and layout enhance the user experience.
+
+## Feature 5: Error Handling and Validation
+
+- The application provides error handling and validation to prevent user mistakes.
+- Users receive feedback on incorrect input or failed actions.
+
+## Feature 6: Responsive Design
+
+- The app is designed to work seamlessly on various devices, including desktop and mobile.
+
+## Feature 7: API Integration
+
+- The application communicates with a backend server to store and retrieve todo data.
+- This ensures data persistence and synchronization across devices.
