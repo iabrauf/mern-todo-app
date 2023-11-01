@@ -14,7 +14,7 @@ export function NewTodoForm() {
     const getTodos = () => {
         // Use Axios to make a GET request to fetch todos from your API
         setIsLoading(true)
-        axios.get('http://localhost:5000/api/todos')
+        axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/todos`)
             .then(response => {
                 // Filter todos to include only those of the same day
                 const today = new Date();
@@ -53,7 +53,7 @@ export function NewTodoForm() {
 
         try {
             setPostLoading(true);
-            await axios.post('http://localhost:5000/api/todos', data);
+            await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/todos`, data);
             setNewItem("");
             getTodos();
         } catch (error) {

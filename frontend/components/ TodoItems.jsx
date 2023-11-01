@@ -6,8 +6,6 @@ import { Circles } from 'react-loader-spinner';
 const TodoItems = ({ todos, getTodos, isLoading }) => {
 
 
-
-
   useEffect(() => {
     getTodos();
   }, []);
