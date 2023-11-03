@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import TodoItem from './TodoItem';
 import { Circles } from 'react-loader-spinner';
 
