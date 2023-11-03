@@ -140,7 +140,3 @@ features of application
 
 - The application communicates with a backend server to store and retrieve todo data.
 - This ensures data persistence and synchronization across devices.
-
-```
-
-```
